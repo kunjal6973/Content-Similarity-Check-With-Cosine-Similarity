@@ -19,7 +19,7 @@ def calculate_similarity(text1, text2):
 
 # App layout
 st.title("Text Similarity Calculator")
-st.markdown("This app calculates the similarity between two texts.")
+st.markdown("<p style="font-style: italic;">This app calculates the similarity between two texts by leveraging Cosine Similarity & TF-IDF.Created by <a href="https://www.linkedin.com/in/kunjal-chawhan/" target="_blank">Kunjal Chawhan</a><a href="https://www.decodedigitalmarket.com" target="_blank">More Apps & Scripts on my Website</a> .")
 
 # Input boxes for user text
 text1 = st.text_area("Paste Text 1 here:")
